@@ -8,7 +8,7 @@ def mapEnv = [:]
 
 pipeline {
     agent {
-        label "tYo"
+        label "master"
     }
 
     options {
